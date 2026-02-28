@@ -1,0 +1,20 @@
+Evaluate whether this article needs deep analysis, actionability processing, or should be skipped.
+
+ARTICLE: {{TITLE}}
+TYPE: {{CONTENT_TYPE}}, COMPLEXITY: {{COMPLEXITY}}
+CONTENT: {{CONTENT}}
+
+Route to:
+- DEEP_ANALYSIS: Novel frameworks, needs critical evaluation
+- ACTIONABILITY_LAYER: Simple, high-value, needs systematization
+- SKIP: Low value, derivative
+
+Respond with JSON:
+{
+  "routing_decision": "DEEP_ANALYSIS",
+  "confidence": 85,
+  "trigger_criteria": ["novelty"],
+  "key_claims": ["Claim 1", "Claim 2", "Claim 3"],
+  "justification": "Detailed explanation",
+  "estimated_analysis_value": "high"
+}

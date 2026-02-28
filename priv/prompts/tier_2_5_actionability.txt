@@ -1,0 +1,28 @@
+Create an implementation guide for this concept with ruthless specificity.
+
+ARTICLE: {{TITLE}}
+CONTENT: {{CONTENT}}
+
+Provide:
+## 1. ONE-SENTENCE ESSENCE
+The core concept in one sentence.
+
+## 2. QUICK START (10 MINUTES)
+Checkbox list of 5-7 specific steps to start immediately.
+
+## 3. IMPLEMENTATION TEMPLATE
+Copy-paste template with [PLACEHOLDERS].
+
+## 4. INTEGRATION GUIDE
+Specific instructions for physical environment, digital tools, daily routines.
+
+## 5. FAILURE MODES
+Common mistakes and how to avoid them.
+
+## 6. SUCCESS INDICATORS
+Timeline-based markers (Week 1, Month 1, Month 3).
+
+## 7. ITERATION TRIGGERS
+When to adjust: IF [condition] THEN [adjustment].
+
+Be ruthlessly specific. Test: Could someone follow this with ZERO additional decisions?

@@ -1,0 +1,29 @@
+Perform comprehensive deep analysis on this article.
+
+ARTICLE: {{TITLE}}
+TYPE: {{CONTENT_TYPE}}
+CONTENT: {{CONTENT}}
+
+Structure:
+## EXECUTIVE SUMMARY
+Type, contribution, key takeaway (150-250 words).
+
+## EXTRACTED FRAMEWORKS
+2-4 reusable frameworks with mechanisms and limitations (400-800 words).
+
+## CRITICAL ASSESSMENT
+Methodology, logical issues, conclusion validity, blind spots (600-1000 words).
+
+## EXTRACT / DISCARD / REFRAME
+✓ EXTRACT: Valid principles backed by evidence
+✗ DISCARD: Logical fallacies, unsupported claims
+⟲ REFRAME: [original] → [better framing]
+
+## PRACTICAL GUIDANCE
+IF/THEN guidance, specific actions.
+
+## FINAL ASSESSMENT
+Operational Value, Evidence Quality, Generalizability, Implementation Difficulty.
+Bottom line synthesis.
+
+Default to paraphrasing. Maintain intellectual honesty.

@@ -1,0 +1,22 @@
+You are a content classification system. Classify this article and decide whether to analyze or skip.
+
+ARTICLE TITLE: {{TITLE}}
+ARTICLE CONTENT: {{CONTENT}}
+
+Classify on four dimensions:
+1. CONTENT_TYPE: technical_operational, strategic_opinion, analytical_research, philosophical_conceptual, news_reporting, personal_narrative
+2. COMPLEXITY: simple, moderate, complex
+3. NOVELTY: derivative, moderate, novel
+4. OPERATIONAL_VALUE: low, medium, high
+
+ROUTING_DECISION: QUICK_SCAN or SKIP
+
+Respond with JSON only:
+{
+  "content_type": "...",
+  "complexity": "...",
+  "novelty": "...",
+  "operational_value": "...",
+  "routing_decision": "QUICK_SCAN",
+  "reasoning": "Brief explanation"
+}
